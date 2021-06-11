@@ -9,7 +9,7 @@ This tutorial has exercises from www.johnsmilga.com
 1. Introduction
 2. Global variables
 3. Modules (every nodejs file is a module by default)
-   - ### Modules basics -
+   - ### Modules basics
      > a) Importing a module in a file and assigning it to a const variable
      > b) Importing a module in a file and assigning it to a const function
      > c) Importing a module in a file and assigning it to a generic object variable which holds everything
