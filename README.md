@@ -23,4 +23,5 @@ This tutorial has exercises from www.johnsmilga.com
 7. Not explicitly exporting anything yet somehow when it's imported (using require function) the invoked function (present inside the exported module) runs by default.
 8. os built-in module
 9. path built-in module
-10. ...
+10. fs built-in module (synchronous) ; default- contents of file is overwritten after it's run again
+11. ...
