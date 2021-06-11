@@ -20,7 +20,7 @@ This tutorial has exercises from www.johnsmilga.com
 4. In a module we decide which variables to export & which ones to keep secret
 5. Exporting a function from a module
 6. Exporting arrays and objects from a module
-7. Not explicitly exporting anything yet somehow when it's imported (using require function) the invoked function runs by default.
+7. Not explicitly exporting anything yet somehow when it's imported (using require function) the invoked function (present inside the exported module) runs by default.
 8. os built-in module
 9. path built-in module
 10. ...
