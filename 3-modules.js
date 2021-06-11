@@ -5,10 +5,10 @@
 // require('module to be imported') function is used to import a module
 
 // a) Importing a module in a file and assigning it to a const variable
-const names = require('./4-first-module');
+const names = require('./4-names-module');
 
 // b) Importing a module in a file and assigning it to a const function
-const sayHi = require('./5-second-module');
+const sayHi = require('./5-utils-module');
 sayHi('susan');
 sayHi(names.john);
 sayHi(names.peter);
