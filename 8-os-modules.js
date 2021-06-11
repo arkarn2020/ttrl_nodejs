@@ -16,4 +16,9 @@ const currentOS = {
   freeMem: os.freemem(),
 };
 
+currentOS.totalMem =
+  (Number(currentOS.totalMem) / (1024 * 1024 * 1024)).toFixed(2) + 'GB';
+currentOS.freeMem =
+  (Number(currentOS.freeMem) / (1024 * 1024 * 1024)).toFixed(2) + 'GB';
+
 console.log(currentOS);
